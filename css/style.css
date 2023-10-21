@@ -1,0 +1,57 @@
+body {
+    width: 1500px;
+}
+
+.header{
+    color: rgb(34, 0, 255)
+}
+
+.header {
+    font-weight: bold;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header logo {
+    padding: 14px 16px;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+h2.catch {
+    font-size: 30px;
+}
+
+h2.catch {
+    transform: translateY(770px);
+}
+
+.blue-box {
+    width: 1000px;
+    height: 100px;
+    background-color: rgb(9, 5, 244);
+    top: 770px;
+}
+
+.relative {
+    position: relative;
+    left: 0%;
+}
+
+.absolute {
+    position: absolute;
+    top: 180px;
+    left: 450px;
+}
